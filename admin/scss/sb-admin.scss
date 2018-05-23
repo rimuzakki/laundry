@@ -1,0 +1,38 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+@import "navbar/navbar_global.scss";
+@import "navbar/navbar_fixed.scss";
+@import "navbar/navbar_static.scss";
+@import "navbar/navbar_toggle.scss";
+@import "navbar/navbar_colors.scss";
+@import "cards.scss";
+@import "login.scss";
+@import "footer.scss";
+
+#dashboard {
+ .table {
+   th {
+     vertical-align: middle;
+     text-align: center;
+   }
+   td, th {
+     white-space: nowrap;
+   }
+   .form-group {
+     margin-bottom: 0px;
+   }
+   .form-control {
+     height: 32px;
+     padding: 0px;
+   }
+  }
+}
+#products {
+  .img-fluid {
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+  }
+}
